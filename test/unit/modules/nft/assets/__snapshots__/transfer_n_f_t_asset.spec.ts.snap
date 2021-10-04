@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TransferNFTAsset constructor should have valid schema 1`] = `
+Object {
+  "$id": "lisk/nft/transfer",
+  "properties": Object {
+    "name": Object {
+      "dataType": "string",
+      "fieldNumber": 3,
+    },
+    "nftId": Object {
+      "dataType": "bytes",
+      "fieldNumber": 1,
+    },
+    "recipient": Object {
+      "dataType": "bytes",
+      "fieldNumber": 2,
+    },
+  },
+  "required": Array [
+    "nftId",
+    "recipient",
+  ],
+  "type": "object",
+}
+`;

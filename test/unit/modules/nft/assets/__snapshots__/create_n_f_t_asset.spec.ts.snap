@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CreateNFTAsset constructor should have valid schema 1`] = `
+Object {
+  "$id": "lisk/nft/create",
+  "properties": Object {
+    "initValue": Object {
+      "dataType": "uint64",
+      "fieldNumber": 2,
+    },
+    "minPurchaseMargin": Object {
+      "dataType": "uint32",
+      "fieldNumber": 1,
+    },
+    "name": Object {
+      "dataType": "string",
+      "fieldNumber": 3,
+    },
+  },
+  "required": Array [
+    "minPurchaseMargin",
+    "initValue",
+    "name",
+  ],
+  "type": "object",
+}
+`;
